@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Header */
+.header{
+    background: rgb(121,175,255);
+    background: linear-gradient(0deg, rgba(121,175,255,1) 0%, rgba(45,67,253,1) 46%);
+    padding: 15px 0px;
+}
+.head-text{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 0px auto;
+}
+.cities{
+    display: flex;
+    list-style-type: none;
+}
+li{
+    padding-left: 20px;
+}
+
+/* San Jose and temp choice */
+.city{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+/* Cards */
+.container{
+    width: 50%;
+    margin: 0px auto;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card{
+    background: rgb(238,238,238);
+    background: linear-gradient(0deg, rgba(238,238,238,1) 0%, rgba(220,224,255,1) 92%);
+    width: 18%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.temp{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.high{
+    color: rgb(182, 17, 17);
+}
+.low{
+    color: rgb(66, 66, 224);
+}
+/* Cookies */
+.cookie-alert{
+    display: flex;
+    border: 3px solid;
+    align-items: center;
+    padding: 20px;
+    margin-top: 80px;
+}
+.cookie-text-container{
+    padding-left: 20px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border: black solid 2px;
+    box-shadow: black 3px 3px;
+    margin-left: 15px;
+    background-color: lightblue;
+}
